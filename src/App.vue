@@ -10,12 +10,22 @@
         Building a Community
       </h1>
     </section>
-    <section id="middleBanner" class="h-64 bg-myGray">
+    <section id="middleBanner" class="h-auto bg-myGray">
       <h1
         class="font-raleway font-medium lg:text-4xl md:text-3xl text-2xl text-center pt-10"
       >
         Projects
       </h1>
+      <div class="flex">
+        <project
+          title="OSAP for Muslims"
+          description="An informational site for student and parents"
+        />
+        <project
+          title="Masjid Wesbite"
+          description="A web app made for small to medium sized masajis/musallah"
+        />
+      </div>
     </section>
     <section id="bottomBanner" class="grid place-items-center">
       <h1
@@ -49,12 +59,12 @@
 </template>
 
 <script>
-//import Project from './components/Project.vue'
+import Project from "./components/Project.vue";
 
 export default {
   name: "App",
   components: {
-    //Project
+    Project,
   },
 };
 </script>
