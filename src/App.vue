@@ -16,20 +16,7 @@
       >
         Projects
       </h1>
-      <div class="flex flex-wrap justify-center">
-        <project
-          title="OSAP for Muslims"
-          description="An informational site for student and parents"
-        />
-        <project
-          title="Masjid Website"
-          description="A web app made for small to medium sized masajis/musallah"
-        />
-        <project
-          title="Jamea"
-          description="A school admin software featuring attendance, markbook and more"
-        />
-      </div>
+      <div class="mt-5"></div>
     </section>
     <section id="bottomBanner" class="grid place-items-center">
       <h1
@@ -63,12 +50,11 @@
 </template>
 
 <script>
-import Project from "./components/Project.vue";
-
 export default {
   name: "App",
-  components: {
-    Project,
+  components: {},
+  data() {
+    return {};
   },
 };
 </script>
