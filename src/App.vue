@@ -56,7 +56,7 @@
         still building. If you would like to be notified when we launch please
         leave your email below.
       </p>
-      <form class="mb-10" netlify>
+      <form name="emails" class="mb-10" netlify>
         <input
           type="email"
           placeholder="email"
