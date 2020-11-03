@@ -16,14 +16,18 @@
       >
         Projects
       </h1>
-      <div class="flex">
+      <div class="flex flex-wrap justify-center">
         <project
           title="OSAP for Muslims"
           description="An informational site for student and parents"
         />
         <project
-          title="Masjid Wesbite"
+          title="Masjid Website"
           description="A web app made for small to medium sized masajis/musallah"
+        />
+        <project
+          title="Jamea"
+          description="A school admin software featuring attendance, markbook and more"
         />
       </div>
     </section>
