@@ -1,21 +1,24 @@
 <template>
   <div
-    class="card flex-shrink-0 mx-10 my-10 p-10 bg-white rounded-3xl w-1/4 h-2/5"
+    class="card mx-10 my-5 p-5 bg-white rounded-3xl w-2/3 h-auto grid place-items-center"
   >
-    <h1 class="font-raleway font-medium text-center m-4">{{ title }}</h1>
-    <p class="font-lato text-center">{{ description }}</p>
+    <img src="../assets/o4mLogo.png" alt="o4m logo" />
+    <h1 class="my-4 text-center font-medium font-raleway text-xl">
+      OSAP for Muslims
+    </h1>
+    <p class="mb-4 text-center font-lato text-lg">
+      An informational site for students and parents to educate themselves on
+      how best to avoid interest
+    </p>
+    <a href="https://osapformuslims.ca/" class="text-samBlue font-lato"
+      >osapformuslims.ca</a
+    >
   </div>
 </template>
 
 <script>
 export default {
   name: "Project",
-  props: {
-    title: String,
-    description: String,
-    status: Boolean,
-    logo: Image,
-  },
 };
 </script>
 

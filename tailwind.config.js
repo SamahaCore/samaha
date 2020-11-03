@@ -18,7 +18,11 @@ module.exports = {
       }),
       backgroundImage: theme => ({
         'middle-pattern': "url('/src/assets/middleBannerBg-min.jpg')",
-      })
+      }),
+      textColor: theme => ({
+        'myGray': '#f2f2f2',
+        'samBlue': '#48BEFF'
+      }),
     },
   },
   variants: {},

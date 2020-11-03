@@ -16,7 +16,13 @@
       >
         Projects
       </h1>
-      <div class="mt-5"></div>
+      <div class="sm:grid md:flex pb-5">
+        <div class="grid place-items-center">
+          <Project />
+          <Project />
+          <Project />
+        </div>
+      </div>
     </section>
     <section id="bottomBanner" class="grid place-items-center">
       <h1
@@ -50,9 +56,15 @@
 </template>
 
 <script>
+//import VueCarousel from "@chenfengyuan/vue-carousel";
+import Project from "./components/Project";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    //VueCarousel,
+    Project,
+  },
   data() {
     return {};
   },
