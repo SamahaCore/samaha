@@ -16,11 +16,28 @@
       >
         Projects
       </h1>
-      <div class="sm:grid md:flex pb-5">
-        <div class="grid place-items-center">
-          <Project />
-          <Project />
-          <Project />
+      <div class="pb-5">
+        <div class="grid place-items-center md:flex">
+          <Project
+            :img="projects.osap.img"
+            :title="projects.osap.title"
+            :description="projects.osap.description"
+            :bottomtxt="projects.osap.bottomtxt"
+            :link="projects.osap.link"
+          />
+          <Project
+            :img="projects.pwa.img"
+            :title="projects.pwa.title"
+            :description="projects.pwa.description"
+            :bottomtxt="projects.pwa.bottomtxt"
+            :link="projects.pwa.link"
+          />
+          <Project
+            :img="projects.jamea.img"
+            :title="projects.jamea.title"
+            :description="projects.jamea.description"
+            :bottomtxt="projects.jamea.bottomtxt"
+          />
         </div>
       </div>
     </section>
@@ -66,7 +83,34 @@ export default {
     Project,
   },
   data() {
-    return {};
+    return {
+      projects: {
+        osap: {
+          title: "OSAP for Muslims",
+          description:
+            "An informational site for students and parents to educate themselves on how best to avoid interest",
+          img: "o4mLogo.png",
+          bottomtxt: "osapformuslims.ca",
+          link: "https://osapformuslims.ca/",
+        },
+        pwa: {
+          title: "Masjid Website",
+          description:
+            "A web app made for small - medium sized masajid/musallah who don’t yet have a website or app",
+          img: "pwaLogo.png",
+          bottomtxt: "Demo",
+          link: "https://masjid-pwa.web.app/",
+        },
+        jamea: {
+          title: "Jamea",
+          description:
+            "A school admin software featuring attendance, markbook and more.",
+          img: "jameaLogo.png",
+          bottomtxt: "Coming Soon",
+          link: "",
+        },
+      },
+    };
   },
 };
 </script>

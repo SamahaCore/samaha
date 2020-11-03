@@ -1,27 +1,36 @@
 <template>
   <div
-    class="card mx-10 my-5 p-5 bg-white rounded-3xl w-2/3 h-auto grid place-items-center"
+    class="card mx-10 my-5 p-5 bg-white rounded-3xl w-2/3 grid place-items-center shadow-lg"
   >
-    <img src="../assets/o4mLogo.png" alt="o4m logo" />
-    <h1 class="my-4 text-center font-medium font-raleway text-xl">
-      OSAP for Muslims
+    <img :src="require('@/assets/' + img + '')" alt="logo" />
+    <h1 class="my-4 text-center font-medium font-raleway text-xl underline">
+      {{ title }}
     </h1>
     <p class="mb-4 text-center font-lato text-lg">
-      An informational site for students and parents to educate themselves on
-      how best to avoid interest
+      {{ description }}
     </p>
-    <a href="https://osapformuslims.ca/" class="text-samBlue font-lato"
-      >osapformuslims.ca</a
-    >
+    <a :href="link" target="_blank" class="text-samBlue font-lato">{{
+      bottomtxt
+    }}</a>
   </div>
 </template>
 
 <script>
 export default {
   name: "Project",
+  props: {
+    title: String,
+    description: String,
+    img: String,
+    bottomtxt: String,
+    link: String,
+  },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.card {
+  height: 20rem;
+}
 </style>
