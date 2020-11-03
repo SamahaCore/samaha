@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;500&family=Poppins:wght@300;400;500&family=Raleway:wght@300;400;500&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.vuperslide__title {
+    font-family: 'Raleway';
+}
