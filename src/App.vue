@@ -10,9 +10,12 @@
         Building a Community
       </h1>
     </section>
-    <section id="middleBanner" class="h-auto bg-myGray">
+    <section
+      id="middleBanner"
+      class="h-auto bg-gradient-to-r from-turq to-teal-300"
+    >
       <h1
-        class="font-raleway font-medium lg:text-4xl md:text-3xl text-2xl text-center pt-10"
+        class="font-pop font-medium lg:text-4xl md:text-3xl text-2xl text-center text-white pt-10"
       >
         Projects
       </h1>
@@ -43,19 +46,22 @@
     </section>
     <section id="bottomBanner" class="grid place-items-center">
       <h1
-        class="font-raleway font-medium lg:text-4xl md:text-3xl text-2xl text-center py-10"
+        class="font-raleway font-medium lg:text-4xl md:text-3xl text-2xl text-center pt-10 pb-5"
       >
-        About Us
+        Coming Soon
       </h1>
-      <p
-        class="font-lato font-light lg:text-2xl md:text-xl text-lg text-center w-2/3"
-      >
-        We’re working to create a platform for muslim professionals, scholars
-        and grassroots organizations to pool resources and work together in
-        order to solve contemporary issues facing our muslim communities.<br /><br />We’re
-        still building. If you would like to be notified when we launch please
-        leave your email below.
-      </p>
+      <div class="grid place-items-center w-5/6">
+        <p
+          class="font-lato font-light lg:text-2xl md:text-xl text-lg text-center w-2/3"
+        >
+          We’re working to create a platform for muslim professionals, scholars
+          and grassroots organizations to pool resources and work together in
+          order to solve contemporary issues facing our muslim communities.<br /><br />We’re
+          still building. If you would like to be notified when we launch please
+          leave your email below.
+        </p>
+      </div>
+
       <form name="emails" class="mb-10" netlify>
         <input
           type="email"
@@ -115,5 +121,5 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 </style>

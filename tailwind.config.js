@@ -14,14 +14,20 @@ module.exports = {
       },
       backgroundColor: theme => ({
         'myGray': '#f2f2f2',
-        'samBlue': '#48BEFF'
+        'samBlue': '#48BEFF',
+        'turq': '#36D1DC',
+        'bleu': '#5B86E5'
       }),
       backgroundImage: theme => ({
-        'middle-pattern': "url('/src/assets/middleBannerBg-min.jpg')",
+        'middle-pattern': "url('/src/assets/yer.jpg')",
       }),
       textColor: theme => ({
         'myGray': '#f2f2f2',
         'samBlue': '#48BEFF'
+      }),
+      gradientColorStops: theme => ({
+        'turq': '#36D1DC',
+        'bleu': '#5B86E5'
       }),
     },
   },
