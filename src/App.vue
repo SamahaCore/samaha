@@ -102,7 +102,7 @@ export default {
         pwa: {
           title: "Masjid Website",
           description:
-            "A web app made for small - medium sized masajid/musallah who don’t yet have a website or app",
+            "A web app made for small - medium sized masajid/musallah",
           img: "pwaLogo.png",
           bottomtxt: "Demo",
           link: "https://masjid-pwa.web.app/",
@@ -110,7 +110,7 @@ export default {
         jamea: {
           title: "Jamea",
           description:
-            "A school admin software featuring attendance, markbook and more.",
+            "A school/madressah admin software featuring attendance, markbook and more.",
           img: "jameaLogo.png",
           bottomtxt: "Coming Soon",
           link: "",
