@@ -105,7 +105,8 @@ export default {
             "A web app made for small - medium sized masajid/musallah",
           img: "pwaLogo.png",
           bottomtxt: "Demo",
-          link: "https://masjid-pwa.web.app/",
+          link:
+            "https://drive.google.com/file/d/1Rw554OIEsr0niSopZ-75j5BMB8mmTAYX/view?usp=sharing",
         },
         jamea: {
           title: "Jamea",
