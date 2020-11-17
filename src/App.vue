@@ -66,7 +66,7 @@
         <input
           type="email"
           placeholder="email"
-          value="emails"
+          name="email"
           class="mb-20 mt-10 bg-myGray rounded-l-xl h-12 placeholder-black placeholder-opacity-75 pl-4 font-mont"
         />
         <button
