@@ -62,7 +62,7 @@
         </p>
       </div>
 
-      <form name="emails" class="mb-10" netlify>
+      <form name="emails" class="mb-10" data-netlify="true">
         <input
           type="email"
           placeholder="email"
