@@ -80,13 +80,11 @@
 </template>
 
 <script>
-//import VueCarousel from "@chenfengyuan/vue-carousel";
 import Project from "./components/Project";
 
 export default {
   name: "App",
   components: {
-    //VueCarousel,
     Project,
   },
   data() {
