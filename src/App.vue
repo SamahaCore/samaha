@@ -71,6 +71,7 @@
         />
         <button
           class="font-pop font-regular text-white rounded-r-xl bg-samBlue h-12 px-5"
+          type="submit"
         >
           submit
         </button>
