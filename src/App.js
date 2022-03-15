@@ -1,7 +1,13 @@
+import Header from "./Layout/Header";
+import Body from "./Layout/Body";
+import Footer from "./Layout/Footer";
+
 function App() {
   return (
-    <div className="text-3xl font-bold underline">
-      <h1>hello world</h1>
+    <div className="flex flex-col">
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
