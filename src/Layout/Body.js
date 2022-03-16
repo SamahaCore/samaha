@@ -1,6 +1,14 @@
+import Directory from "../Components/Body/Directory";
+import Home from "../Components/Body/Home";
+import Projects from "../Components/Body/Projects";
+
 const Body = () => {
   return (
-    <div className="">Body</div>
+    <div className="">
+      <Home />
+      <Directory />
+      <Projects />
+    </div>
   );
 };
 
