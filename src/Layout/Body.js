@@ -1,6 +1,6 @@
 const Body = () => {
   return (
-    <div className="basis-4/6">Body</div>
+    <div className="">Body</div>
   );
 };
 
