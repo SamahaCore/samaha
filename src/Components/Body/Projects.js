@@ -1,7 +1,7 @@
 import Section from "../../UI/Section";
 
 const Projects = () => {
-  return <Section>Projects</Section>;
+  return <Section id="projects">Projects</Section>;
 };
 
 export default Projects;

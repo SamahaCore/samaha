@@ -1,6 +1,6 @@
 const NavigationLink = (props) => {
   return (
-    <a className="px-2" href="/">
+    <a href={`#${props.href}`} className="px-2">
       {props.children}
     </a>
   );
