@@ -5,6 +5,7 @@ module.exports = {
     fontFamily: {
       'heading': 'Poppins, sans-serif',
       'paragraph': 'Lato, sans-serif',
+      'arabic': 'Amiri, serif',
     },
   },
   plugins: [],
