@@ -4,7 +4,7 @@ import Footer from "./Layout/Footer";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col font-paragraph">
       <Header />
       <Body />
       <Footer />

@@ -4,6 +4,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'heading': 'Poppins, sans-serif',
+      'paragraph': 'Lato, sans-serif',
     },
   },
   plugins: [],
