@@ -1,6 +1,6 @@
 const Text = (props) => {
   return (
-    <p>{props.children}</p>
+    <p className={`${props.basis} text-center`}>{props.children}</p>
   )
 }
 

@@ -1,6 +1,6 @@
-const Art = () => {
+const Art = (props) => {
   return (
-    <div>Art</div>
+    <div className={`${props.basis} text-center`}>Art</div>
   )
 }
 

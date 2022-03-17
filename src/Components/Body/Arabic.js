@@ -1,6 +1,6 @@
-const Arabic = () => {
+const Arabic = (props) => {
   return (
-    <div>Arabic</div>
+    <p className={`${props.basis} text-center font-arabic text-3xl`}>{props.children}</p>
   )
 }
 
