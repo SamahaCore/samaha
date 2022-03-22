@@ -1,12 +1,8 @@
-import Logo from "../Components/Header/Logo";
-import Navigation from "../Components/Header/Navigation";
+import Navbar from "../Components/Header/Navbar";
 
 const Header = () => {
   return (
-    <header className="flex flex-row justify-between items-end font-heading text-2xl">
-      <Logo />
-      <Navigation />
-    </header>
+    <Navbar />
   );
 };
 
