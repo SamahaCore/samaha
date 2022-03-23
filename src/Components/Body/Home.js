@@ -6,7 +6,7 @@ import Art from "../../UI/Art";
 const Home = () => {
   return (
     <Section>
-      <div className="flex justify-evenly items-center py-20">
+      <div className="flex justify-evenly items-center py-20 h-1/2">
         <Text basis="basis-1/3">
           Cooperate with one another in goodness and righteousness
         </Text>
@@ -14,7 +14,7 @@ const Home = () => {
           وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ
         </Arabic>
       </div>
-      <div className="flex justify-evenly items-center py-20">
+      <div className="flex justify-evenly items-center py-20 h-1/2">
         <Art basis="basis-1/3" />
         <Text basis="basis-1/3">
           Ad quis fugiat reprehenderit non ea ut non cupidatat proident duis.
